@@ -1,0 +1,78 @@
+.single-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(48, 44, 116);
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.26);
+    padding: 0 1rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    transition: .2s;
+}
+
+.single-task:hover {
+
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.single-task:last-child {
+
+    margin-bottom: unset;
+}
+
+.tasks {
+    background-color: rgb(4, 51, 93);
+}
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+}
+
+.buttons a:first-child {
+    margin-right: 1rem;
+    margin-top: 1px;
+}
+
+.buttons .fa {
+
+    cursor: pointer;
+}
+
+.buttons .fa-close {
+
+    color: #f03f3f;
+}
+
+.buttons .fa-pencil-square-o {
+
+    color: #1f97fa;
+}
+
+.add-card {
+
+    padding: 2rem 0;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: -2.5rem;
+    background-color: #fff;
+}
+
+.add-card a {
+
+    color: #222;
+    font-weight: 500;
+    transition: .3s;
+    font-size: 14pt;
+}
+
+.add-card a:hover {
+
+    color: #1f97fa;
+    transition: .3s;
+}
